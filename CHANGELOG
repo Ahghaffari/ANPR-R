@@ -1,0 +1,86 @@
+- Version 1.7.9
+Speed offset for heavy trackers added
+
+- Version 1.7.8
+Car type detection bug fixed
+Handling warnings in tracker added
+Bugs fixed
+
+- Version 1.7.7
+Setting camera pixel format added
+Supporting A1950gc added
+Supporting single camera added
+Message publishing bugs fixed
+
+- Version 1.7.5
+Similar plate detection method changed
+Segmentation bug fixed
+OCRing bad segmented plates added
+
+- Version 1.7.1
+Car type detection network changed
+
+- Version 1.6.9
+Supporting frontend added
+Bugs fixed
+
+- Version 1.6.8
+Camera negotiations changed
+
+- Version 1.6.7
+Activation method changed
+Optimization performed in implementation
+
+- Version 1.6.6
+Determining car lane changed in 3Line roads
+Activation method changed to online Activation
+Optimization performed in implementation
+Showing lane separators added
+
+- Version 1.6.5
+Bugs fixed
+Useless variable and functions removed
+Optimization performed in implementation
+Car detection added using YOLO v3
+Camera manipulation optimized
+Third camera support removed
+Thread handling added
+Regression method added to calculate lane separators
+
+- Version 1.6.3
+Activation added
+3-Line roads will now supports by Tracker using only one front camera
+Cameras synchronization added
+Cameras initialization method updated
+Tracker 3-Line using stiching removed
+Plate post processing added in order to improve plate cutting in OCR section
+Automatically gain and shutter configuring added 
+IEEE1588 applied in order to synchronize cameras time
+
+- Version 1.1.0
+System architecture changed
+RabbitMQ connection process updated
+Queue processing handled in a separate thread
+ZeroMQ added to handle 3 camera in 3 separate threads
+
+- Version 1.0.0
+Threading added
+Digit classifier updated by Rashidinia
+RabbitMQ added to transfer messages between OCR and Tracker
+
+- Version 0.8.2
+Digit classifier redesigned by Rashidinia
+
+- Version 0.7.8
+Yolo digit segmentation updated with more data
+
+- Version 0.6.3
+Digit segmentation method changed by YOLO v3 CNN
+Digit classifier reverted to version 0.4.2
+
+- Version 0.5.3
+Digit classifier changed to Kiayi model
+Digit segmentation changed to Kiayi model
+
+- Version 0.4.2
+Version controlling started

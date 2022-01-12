@@ -1,0 +1,14 @@
+.idea
+venv
+__pycache__
+build
+dist
+main.spec
+mob-*
+logfile.log
+config.ini
+daylight.py
+ir.py
+gain.py
+shutter.py
+OUT_TRACKER

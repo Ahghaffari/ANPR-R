@@ -1,0 +1,5 @@
+forfiles /p "D:\towzin_its\Motion" /s /m *.jpg /D -1 /C "cmd /c del @path"
+forfiles /p "D:\towzin_its\Motion_side" /s /m *.jpg /D -1 /C "cmd /c del @path"
+forfiles /p "D:\towzin_its\OCR" /s /m *.jpg /D -1 /C "cmd /c del @path"
+forfiles /p "D:\towzin_its\OUT_TRACKER\front" /s /m *.jpg /D -1 /C "cmd /c del @path"
+forfiles /p "D:\towzin_its\OUT_TRACKER\side" /s /m *.jpg /D -1 /C "cmd /c del @path"
